@@ -6,7 +6,7 @@ import java.util.Arrays;
  *         Maria José Villafuerte
  *         Fabiola Contreras
  *         Madeline Castro
- * @category Ejercicio #2
+ * @category Hoja De Trabajo #2
  *           Propósito: Realizar las operaciones aritméticas de los números
  *           obtenidos de la pila
  * @date 30/01/2023
