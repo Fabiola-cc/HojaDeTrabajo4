@@ -64,4 +64,14 @@ public class Stack_ArrayList<T> implements IStack<T>{
         return ourStack.get(0);
     }
 
+    @Override
+    public String toString() {
+        String hola = "";
+
+        for (T element: ourStack
+             ) {
+                 hola += element;
+        }
+        return hola;
+    }
 }

@@ -15,22 +15,6 @@ import java.util.Arrays;
 public class PostfixCalculator<T> {
 
     /**
-     * Metodo que verifica si queda un dato en el Stack
-     * 
-     * @param operandos elementos dentro de la pila
-     * @return true si solo se encuentra un elemento
-     * @return false no se encuentra solo un elemento
-     */
-    public boolean isOneItem(IStack operandos) {
-
-        if (operandos.count() == 1) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    /**
      * Metodo que realiza la suma de las operaciones Postfix
      * 
      * @return Suma de dos numeros
@@ -88,15 +72,14 @@ public class PostfixCalculator<T> {
     /**
      * Metodo que guarda en una lista cada elemento de la expresión omitiendo
      * espacios.
-     * 
+     *
      * @param _expresion Elementos de tipo String de la expresion
      * @return Lista convertida en un ArrayList
      */
 
     public ArrayList<String> getItems(String _expresion) {
 
-        String[] elements = _expresion.split(" ");
-
+        String[] elements = _expresion.split("");
         return new ArrayList<String>(Arrays.asList(elements));
     }
 
