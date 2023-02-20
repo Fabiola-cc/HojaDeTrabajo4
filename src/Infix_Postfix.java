@@ -1,10 +1,12 @@
+package src;
+
 /**
- * Infix_Postfix
+ * src.Infix_Postfix
  * Implementación generada con ChatGPT, adaptada a la estructura necesitada en el actual programa.
  */
 public class Infix_Postfix {
-    public static String infixToPostfix(IStack<Character> Tstack, String infixExpression) {
-            IStack<Character> stack = Tstack;
+    public static String infixToPostfix(Stack<Character> Tstack, String infixExpression) {
+            Stack<Character> stack = Tstack;
             StringBuilder postfixExpression = new StringBuilder();
             for (int i = 0; i < infixExpression.length(); i++) {
                 char c = infixExpression.charAt(i);

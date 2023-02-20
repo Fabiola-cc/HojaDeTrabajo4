@@ -1,6 +1,8 @@
+package src;
+
 import structure.DoublyLinkedList;
 
-public class Stack_DoubleList<T> implements IStack<T> {
+public class Stack_DoubleList<T> extends Stack<T> {
     DoublyLinkedList thisStack = new DoublyLinkedList();
 
     @Override

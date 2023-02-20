@@ -1,6 +1,8 @@
+package src;
+
 public class Factory {
 
-    public static IStack getInstance (int TipoS){
+    public static Stack getInstance (int TipoS){
         switch (TipoS){
             case 1:
                 return new Stack_ArrayList();

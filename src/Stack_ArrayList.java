@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 
 /**
@@ -10,7 +12,7 @@ import java.util.ArrayList;
  * @date 30/01/2023
  */
 
-public class Stack_ArrayList<T> implements IStack<T>{
+public class Stack_ArrayList<T> extends Stack<T> {
 
     private ArrayList<T> ourStack;
 
@@ -56,7 +58,7 @@ public class Stack_ArrayList<T> implements IStack<T>{
     }
 
     /**
-     * Metodo que obtiene del Stack el valor del indice 0
+     * Metodo que obtiene del src.Stack el valor del indice 0
      * @return
      */
     @Override

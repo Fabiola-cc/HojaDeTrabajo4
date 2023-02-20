@@ -1,40 +1,41 @@
-import structure.StackVector;
+package src;
 
-public class Stack_Vector<T> implements IStack<T> {
-    StackVector sv = new StackVector();
+import structure.StackList;
+
+public class Stack_SingleList<T> extends Stack<T> {
+    StackList ssl = new StackList();
 
     @Override
     public int count() {
         // TODO Auto-generated method stub
-        return sv.size();
+        return ssl.size();
     }
 
     @Override
     public boolean isEmpty() {
         // TODO Auto-generated method stub
-        return sv.isEmpty();
+        return ssl.empty();
     }
 
     @Override
     public void push(T value) {
         // TODO Auto-generated method stub
-        sv.add(value);
-
+        ssl.add(value);
     }
 
     @Override
     public T pull() {
         // TODO Auto-generated method stub
-        T info = (T) sv.get();
-        sv.remove();
-        return info;
+        T data = (T) ssl.get();
+        ssl.remove();
+        return data;
     }
 
     @Override
     public T peek() {
         // TODO Auto-generated method stub
-        T info = (T) sv.get();
-        return info;
+        T data = (T) ssl.get();
+        return data;
     }
 
 }

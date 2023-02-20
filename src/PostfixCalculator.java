@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -54,7 +56,7 @@ public class PostfixCalculator<T> {
     }
 
     /**
-     * Metodo que verifica si un elemento del Stack es operador o no
+     * Metodo que verifica si un elemento del src.Stack es operador o no
      * 
      * @return true si es operador
      * @return false si no es operador

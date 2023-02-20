@@ -1,9 +1,11 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * Infixcalc
+ * src.Infixcalc
  */
 public class Infixcalc {
     Scanner sc = new Scanner(System.in);

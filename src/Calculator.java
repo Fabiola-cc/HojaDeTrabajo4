@@ -1,9 +1,10 @@
+package src;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Calculator {
     static PostfixCalculator calculadora = new PostfixCalculator();
-    private static IStack<Integer> stack;
+    private static Stack<Integer> stack;
     static ArrayList<String> operacion;
     static Calculator onlyCalculator;
     private static boolean instance_flag = false; //true if 1 instance
@@ -11,7 +12,7 @@ public class Calculator {
 
     /**
      * Constructor, implementar singleton
-     * evita la creación de nuevas instancias de Calculator en otras clases
+     * evita la creación de nuevas instancias de src.Calculator en otras clases
      */
     private Calculator() {
         instance_flag = true;
