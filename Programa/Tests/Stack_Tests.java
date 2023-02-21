@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Stack_Tests {
     Stack<Integer> s1 = new Stack_ArrayList<>();
-    Stack<Integer> s2 = new Stack_DoubleList<>();
+    Stack<Integer> s2 = new Stack_List<>(1);
     Stack<Integer> s3 = new Stack_Vector<>();
-    Stack<Integer> s4 = new Stack_SingleList<>();
+    Stack<Integer> s4 = new Stack_List<>(2);
 
     Stack_Tests() {
         s1.push(1);s1.push(2);

@@ -18,7 +18,7 @@ class Infix_PostfixTest {
 
     @Test
     void infixToPostfix() {
-        String s = Infix_Postfix.infixToPostfix(new Stack_ArrayList<>(), "((3+4)*2)/7");
+        String s = Infix_Postfix.infixToPostfix("((3+4)*2)/7");
         assertEquals("34+2*7/", s);
     }
 

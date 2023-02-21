@@ -28,6 +28,7 @@ public class Calculator {
      */
     private Calculator() {
         instance_flag = true;
+        stack = Stack_Factory.getInstance();
     }
 
     public static Calculator getInstance() {
@@ -44,8 +45,8 @@ public class Calculator {
      * @param Firstpostfix Primera linea del documento txt
      * @return resultado de la pila
      */
-    public int calculate(int TipoStack, String Firstpostfix){
-        stack = Factory.getInstance(TipoStack);
+    public int calculate(String Firstpostfix){
+
         operacion = calculadora.getItems(Firstpostfix);
 
         for (int i = 0; i < operacion.size(); i++) {

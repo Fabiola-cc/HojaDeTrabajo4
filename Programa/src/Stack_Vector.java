@@ -38,16 +38,13 @@ public class Stack_Vector<T> extends Stack<T> {
     @Override
     public T pull() {
         // TODO Auto-generated method stub
-        T info = (T) sv.get();
-        sv.remove();
-        return info;
+        return (T) sv.remove();
     }
 
     @Override
     public T peek() {
         // TODO Auto-generated method stub
-        T info = (T) sv.get();
-        return info;
+        return (T) sv.peek();
     }
 
 }

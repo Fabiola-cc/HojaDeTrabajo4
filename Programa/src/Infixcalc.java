@@ -29,20 +29,30 @@ public class Infixcalc {
             case 2: // Vector
                 return 2;
             case 3: // Lista
-                int resp = solicitarI(
-                        "\n¿Qué lista desea implementar?\n1. Lista Simplemente encadenada\n2. Lista Doblemente encadenada");
-                switch (resp) {
-                    case 1: // Lista Simple
-                        return 3;
-                    case 2: // Lista doblemente encadenada
-                        return 4;
-                }
-                break;
+                return 3;
             default:
                 return 0;
         }
+    }
 
-        return 0;
+    /**
+     * Consulta al usuario el tipo de lista que desea emplear durante el programa.
+     *
+     * @return entero con el número indicado por el usuario, indicando la pila
+     *         deseada
+     */
+    public int Menu_List() {
+
+        int ans = solicitarI(
+                "¿Qué tipo de lista deseas usar para este programa?\n1. Simple\n2. Doblemente encadenada");
+        switch (ans) {
+            case 1: // Lista Simple
+                return 1;
+            case 2: // Lista Doblemente encadenada
+                return 2;
+            default:
+                return 0;
+        }
     }
 
     /**

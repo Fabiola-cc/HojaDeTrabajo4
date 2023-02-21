@@ -1,11 +1,18 @@
 package src;
 
 /**
- * @author MAAG
- * Convertida en una clase abstracta de la cual pueden heredar otras clases.
+ * Clase abstracta de la cual pueden heredar otras clases.
  */
 
-public abstract class Stack<T> {
+public abstract class Stack<T> implements IStack<T>{
+
+	Stack(){
+
+	}
+
+	public Stack getInstance(){
+		return Stack_Factory.getInstance();
+	}
 
 	/**
 	 * Busca el tamaño de la pila y retorna un entero con ese dato

@@ -15,9 +15,8 @@ import java.util.ArrayList;
 public class Stack_ArrayList<T> extends Stack<T> {
 
     private ArrayList<T> ourStack;
-
-    public Stack_ArrayList() {
-        ourStack = new ArrayList<T>();
+    public Stack_ArrayList(){
+        ourStack = new ArrayList<>();
     }
 
     /**

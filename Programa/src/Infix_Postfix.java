@@ -9,8 +9,8 @@ package src;
  * @author Fabiola Contreras
  */
 public class Infix_Postfix {
-    public static String infixToPostfix(Stack<Character> Tstack, String infixExpression) {
-            Stack<Character> stack = Tstack;
+    public static String infixToPostfix(String infixExpression) {
+            Stack<Character> stack = new Stack_ArrayList<>();
             StringBuilder postfixExpression = new StringBuilder();
             for (int i = 0; i < infixExpression.length(); i++) {
                 char c = infixExpression.charAt(i);

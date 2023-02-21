@@ -16,15 +16,14 @@ public class Main {
 
         System.out.println("\nBienvenido a la Calculadora Infix");
         ArrayList<String> infix_expressions = readFile._readfile("datos.txt//");
-        int Stack_Type = new Infixcalc().Menu_Stack();
 
         Calculator calc = Calculator.getInstance();
 
         for (String element: infix_expressions) {
             element = element.replaceAll("\\s+", "");
-            String exp = Infix_Postfix.infixToPostfix(Factory.getInstance(Stack_Type), element);
+            String exp = Infix_Postfix.infixToPostfix(element);
             System.out.println("\n\tOperación a realizar: " + element);
-            System.out.println("\tResultado obtenido: " + calc.calculate(Stack_Type, exp) + "\n");
+            System.out.println("\tResultado obtenido: " + calc.calculate(exp) + "\n");
         }
 
         System.out.println("\nSe han hecho los cálculos de todo el archivo");
