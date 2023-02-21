@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="bailey">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Programa/out/production/HojaDeTrabajo4/lib/bailey.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programa/lib/bailey.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

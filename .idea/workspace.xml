@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="638cd674-566a-4545-8d8e-646bc503e825" name="Changes" comment="">
+    <list default="true" id="ad2d945a-9811-42ae-886b-5e5884485f8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/bailey.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bailey.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/bailey1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bailey1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja de trabajo 4.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Tests/CalculatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Tests/CalculatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Tests/Infix_PostfixTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Tests/Infix_PostfixTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Tests/Stack_Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Tests/Stack_Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Tests/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Tests/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Tests/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Tests/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Infix_Postfix.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Infix_Postfix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Infixcalc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Infixcalc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/PostfixCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/PostfixCalculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/SingletonException.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/SingletonException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Stack_ArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Stack_ArrayList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Stack_DoubleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Stack_DoubleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Stack_SingleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Stack_SingleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/Stack_Vector.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/Stack_Vector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/src/readFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/src/readFile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Programa/src/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Infix_Postfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Infix_Postfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Stack_DoubleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Stack_DoubleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Stack_SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Stack_SingleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programa/src/Stack_Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Stack_Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programa/src/Infixcalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programa/src/Infixcalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bailey.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/structure-source.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$ja de trabajo 4.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,36 +64,53 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2M0RKxJrHthHF1Pp25tufdRlfoM" />
+  <component name="ProjectId" id="2M1j4oQ1pWUruCwRmNCYCubokP6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fabi/Documents/GitHub/HojaDeTrabajo4/UML/Diagrama_Clases HDT4.drawio&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Fabi/Documents/GitHub/Hoja-de-trabajo-3/src/UI.java"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main" />
+      <module name="HojaDeTrabajo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="638cd674-566a-4545-8d8e-646bc503e825" name="Changes" comment="" />
-      <created>1676902456321</created>
+      <changelist id="ad2d945a-9811-42ae-886b-5e5884485f8f" name="Changes" comment="" />
+      <created>1676941797321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676902456321</updated>
-      <workItem from="1676902460456" duration="388000" />
-      <workItem from="1676933515944" duration="1231000" />
-      <workItem from="1676938141851" duration="2750000" />
+      <updated>1676941797321</updated>
+      <workItem from="1676941801267" duration="291000" />
+      <workItem from="1676942107650" duration="93000" />
     </task>
     <servers />
   </component>
@@ -71,9 +127,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

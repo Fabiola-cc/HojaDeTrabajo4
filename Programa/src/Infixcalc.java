@@ -5,25 +5,36 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * src.Infixcalc
+ * Infixcalc
+ * Cuenta con recursos útiles para el uso de Main
+ * 
+ * @author Fabiola Contreras
  */
 public class Infixcalc {
     Scanner sc = new Scanner(System.in);
 
+    /**
+     * Consulta al usuario el tipo de pila que desea emplear durante el programa.
+     * 
+     * @return entero con el número indicado por el usuario, indicando la pila
+     *         deseada
+     */
     public int Menu_Stack() {
 
-        int ans = solicitarI("¿Cómo desea implementar la pila para este programa?\n1. Usando ArrayList\n2. Usando Vector\n3. Usando Listas");
-        switch (ans){
-            case 1:
+        int ans = solicitarI(
+                "¿Cómo desea implementar la pila para este programa?\n1. Usando ArrayList\n2. Usando Vector\n3. Usando Listas");
+        switch (ans) {
+            case 1: // ArrayList
                 return 1;
-            case 2:
+            case 2: // Vector
                 return 2;
-            case 3:
-                int resp = solicitarI("\n¿Qué lista desea implementar?\n1. Lista Simplemente encadenada\n2. Lista Doblemente encadenada");
-                switch (resp){
-                    case 1:
+            case 3: // Lista
+                int resp = solicitarI(
+                        "\n¿Qué lista desea implementar?\n1. Lista Simplemente encadenada\n2. Lista Doblemente encadenada");
+                switch (resp) {
+                    case 1: // Lista Simple
                         return 3;
-                    case 2:
+                    case 2: // Lista doblemente encadenada
                         return 4;
                 }
                 break;

@@ -9,7 +9,7 @@ package src;
  */
 public class Factory {
 
-    public static Stack getInstance (int TipoS){
+    public static <T> Stack getInstance (int TipoS){
         switch (TipoS){
             case 1:
                 return new Stack_ArrayList();
