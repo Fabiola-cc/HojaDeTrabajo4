@@ -32,7 +32,7 @@ public class Calculator {
      * @param Firstpostfix Primera linea del documento txt
      * @return resultado de la pila
      */
-    public static int calculate(int TipoStack, String Firstpostfix){
+    public int calculate(int TipoStack, String Firstpostfix){
         stack = Factory.getInstance(TipoStack);
         operacion = calculadora.getItems(Firstpostfix);
 

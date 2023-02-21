@@ -8,13 +8,13 @@ class CalculatorTest {
 
     @Test
     void calculate() {
-        int res = Calculator.calculate(1,"12+4*3+");
+        int res = calc.calculate(1,"12+4*3+");
         assertEquals(15, res);
 
-        res = Calculator.calculate(2,"12+4*3/");
+        res = calc.calculate(2,"12+4*3/");
         assertEquals(4, res);
 
-        res = Calculator.calculate(2,"12-4*3+");
+        res = calc.calculate(2,"12-4*3+");
         assertEquals(-1, res);
     }
 }

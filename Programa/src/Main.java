@@ -16,7 +16,7 @@ public class Main {
             element = element.replaceAll("\\s+", "");
             String exp = Infix_Postfix.infixToPostfix(Factory.getInstance(Stack_Type), element);
             System.out.println("\n\tOperación a realizar: " + element);
-            System.out.println("\tResultado obtenido: " + Calculator.calculate(Stack_Type, exp) + "\n");
+            System.out.println("\tResultado obtenido: " + calc.calculate(Stack_Type, exp) + "\n");
         }
 
         System.out.println("\nSe han hecho los cálculos de todo el archivo");
