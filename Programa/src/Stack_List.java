@@ -3,6 +3,8 @@ package src;
 import structure5.AbstractList;
 
 /**
+ * Stack List
+ * Utiliza los métodos de List en la librería de Java Structures para implementar el uso de la Pila
  *
  * @date 21/02/2023
  * @author Fabiola Contreras

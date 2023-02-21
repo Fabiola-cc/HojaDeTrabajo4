@@ -3,14 +3,16 @@ package src;
 import java.util.ArrayList;
 
 /**
+ * Esta clase fue creada y utilizada para la hoja de trabajo 2 del presente curso.
+ * Fue adaptada en este caso para utilizar el patrón singleton y permitir su uso en el actual programa.
+ * Propósito: Realizar las operaciones matemáticas del archivo leído
+ *
  * @author
  * Maria José Villafuerte
  * Fabiola Contreras
  * Madeline Castro
  * @category Hoja de trabajo #2
- *  Esta clase fue creada y utilizada para la hoja de trabajo 2 del presente curso.
- *  Fue adaptada en este caso para utilizar el patrón singleton y permitir su uso en el actual programa.
- * Propósito: Realizar las operaciones matemáticas del archivo leído
+ *
  * @date 30/01/2023
  */
 

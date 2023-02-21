@@ -4,7 +4,6 @@ import structure.StackVector;
 
 /**
  * Stack - Vector
- *
  * Implementa la clase "StackVector" obtenida de recursos del libro Java Structures.
  * Utiliza los mismos métodos obtenidos de tal libreria, modificando nombres y añadiendo el uso de genericos.
  * @param <T>
