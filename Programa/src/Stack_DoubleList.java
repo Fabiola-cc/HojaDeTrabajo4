@@ -2,6 +2,18 @@ package src;
 
 import structure.DoublyLinkedList;
 
+/**
+ * Stack - Double Linked List
+ *
+ * Implementa la clase "DoublyLinkedList" obtenida de recursos del libro empleado.
+ * Hereda de la clase abstracta Stack, generando un stack con el uso de la lista doblemente encadenada.
+ * @param <T>
+ *           Esta clase hace uso de genéricos permitiendo usarse con cualquier tipo de objeto.
+ *
+ * @date 20/02/2023
+ * @author Fabiola Contreras
+ */
+
 public class Stack_DoubleList<T> extends Stack<T> {
     DoublyLinkedList thisStack = new DoublyLinkedList();
 

@@ -1,5 +1,12 @@
 package src;
 
+/**
+ * Factory
+ * Permite la generación de distintos tipos de Stack según sea decidido por el usuario.
+ *
+ * @date 20/02/2023
+ * @author Fabiola Contreras
+ */
 public class Factory {
 
     public static Stack getInstance (int TipoS){

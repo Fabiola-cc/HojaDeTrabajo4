@@ -1,8 +1,12 @@
 package src;
 
 /**
- * src.Infix_Postfix
+ * Infix_Postfix
  * Implementación generada con ChatGPT, adaptada a la estructura necesitada en el actual programa.
+ * Permite convertir una expresión de formato infix a postfix, emplenado un tipo designado de pila.
+ *
+ * @date 20/02/2023
+ * @author Fabiola Contreras
  */
 public class Infix_Postfix {
     public static String infixToPostfix(Stack<Character> Tstack, String infixExpression) {
@@ -36,6 +40,12 @@ public class Infix_Postfix {
             return postfixExpression.toString();
         }
 
+    /**
+     * Este método permite conocer la precedencia o magnitud de un operando para saber en que orden será empleado al hacer cálculos.
+     *
+     * @param operator caracter que será utilizado como operando en el proceso
+     * @return indicador de la magnitud del operando
+     */
         public static int precedence(char operator) {
             switch (operator) {
                 case '+':

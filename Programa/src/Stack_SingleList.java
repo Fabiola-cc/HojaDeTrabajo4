@@ -1,7 +1,17 @@
 package src;
 
 import structure.StackList;
-
+/**
+ * Stack - Single Linked List
+ *
+ * Implementa la clase "StackList" obtenida de recursos del libro Java Structures.
+ * Utiliza los mismos métodos obtenidos de tal libreria, modificando nombres y añadiendo el uso de genericos.
+ * @param <T>
+ *           Esta clase hace uso de genéricos permitiendo usarse con cualquier tipo de objeto.
+ *
+ * @date 20/02/2023
+ * @author Fabiola Contreras
+ */
 public class Stack_SingleList<T> extends Stack<T> {
     StackList ssl = new StackList();
 

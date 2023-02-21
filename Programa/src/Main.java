@@ -2,6 +2,14 @@ package src;
 
 import java.util.ArrayList;
 
+/**
+ * Main class
+ * @purpose permite correr el programa y llamar a funciones de otras clases para un buen funcionamiento.
+ *
+ * @date 20/02/2023
+ * @author Fabiola Contreras
+ */
+
 public class Main {
 
     public static void main(String[] args) {

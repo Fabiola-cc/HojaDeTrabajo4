@@ -2,6 +2,17 @@ package src;
 
 import structure.StackVector;
 
+/**
+ * Stack - Vector
+ *
+ * Implementa la clase "StackVector" obtenida de recursos del libro Java Structures.
+ * Utiliza los mismos métodos obtenidos de tal libreria, modificando nombres y añadiendo el uso de genericos.
+ * @param <T>
+ *           Esta clase hace uso de genéricos permitiendo usarse con cualquier tipo de objeto.
+ *
+ * @date 20/02/2023
+ * @author Fabiola Contreras
+ */
 public class Stack_Vector<T> extends Stack<T> {
     StackVector sv = new StackVector();
 
